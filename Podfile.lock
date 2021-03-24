@@ -1,0 +1,37 @@
+PODS:
+  - GoogleMaps (4.2.0):
+    - GoogleMaps/Maps (= 4.2.0)
+  - GoogleMaps/Base (4.2.0)
+  - GoogleMaps/Maps (4.2.0):
+    - GoogleMaps/Base
+  - GooglePlaces (4.2.0):
+    - GoogleMaps/Base (= 4.2.0)
+  - YSRadioButton (0.0.1)
+
+DEPENDENCIES:
+  - GoogleMaps
+  - GooglePlaces
+  - YSRadioButton (from `https://github.com/sekies/YSRadioButton.git`)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - GoogleMaps
+    - GooglePlaces
+
+EXTERNAL SOURCES:
+  YSRadioButton:
+    :git: https://github.com/sekies/YSRadioButton.git
+
+CHECKOUT OPTIONS:
+  YSRadioButton:
+    :commit: 7ae99f408771a159a993cdbaeeb067d141f5f8e5
+    :git: https://github.com/sekies/YSRadioButton.git
+
+SPEC CHECKSUMS:
+  GoogleMaps: eb03e327edfd70b06de1e6e321653f73712df7ad
+  GooglePlaces: 196a9dd88580dcb3f3df46f415057703d0d2a310
+  YSRadioButton: d36fff9507fc02527bbe44cc1211a201f42d1218
+
+PODFILE CHECKSUM: 1313205be8c1b8164780e460b075edf65569a182
+
+COCOAPODS: 1.10.1
